@@ -1,0 +1,17 @@
+@font-face{
+    font-family: "Charm";
+    src:url('fonts/Charm-Regular.ttf');
+}
+
+@font-face{
+    font-family: "Charm-Bold";
+    src:url('fonts/Charm-Bold.ttf');
+}
+
+body{
+    font-family: "Charm";
+}
+
+h1{ 
+    font-family: 'Oswald', sans-serif;
+}

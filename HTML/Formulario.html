@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title> Formularios</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<!--
+input: Nuevo cuadro
+type="": Tipo de dato.
+    text: Texto-
+    submit: Boton de enviar.
+    email: Email
+    radio: Circulos de opciones.
+        name="": En este caso debe de llevar el mismo para que solo escoga una de n opciones, al final de input, ponemos el texto que quremos
+                que haya.
+    checkbox: Cuadro de palomita(por ejemplo para aceptar terminos)
+value="": es el valor predeterminado que se encuentre en el cuadro, pero el usuario tendría que borrarlo.
+placeholder="": Para especificar los campos del formulario pero que no se quede lo que solicito
+maxlength="": Número maximo de caracteres
+size="": Tamaño de cuadro, es recomendable editarlo en CSS.
+name="": Sirve para PHP, al momento de enviar, que ese cuadro se vaya a un lugar en especifico, pero es aconsejable ponerlo siempre
+required: requerir un campo
+readonly: pone el cuadro para solo leer
+disabled: Deshabilita el cuadro
+<textarea>: Crear un cuadro de texto.
+    cols="": Ancho del cuadro (Mejor editar en CSS)
+    rows="": Alto del cuadro (Mejor editar en CSS)
+<select>: Un cuadro para opciones
+    <option>: Poner una opción en la cinta de opciones
+<label>: Sirve para unir un texto a un cuadro input, osea si hago clic en el label, que si ponga el mouse en el cuadro anclado con el for
+-->
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" value="Nombre" id="nombre" > 
+        <br>
+        <input type="text" placeholder="Nombre:" maxlength="8" required>
+        <br>
+        <input type="text" placeholder="Nombre:" disabled>
+        <br>
+        <input type="email" placeholder="Correo" required name="correo">
+        
+        <br>
+        <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+        <br>
+        <label for="pais">País:</label><!-- Se pone el for para que relacione el label con un cuadro de texto, la cual lleva su ID-->
+        <select name="país" id="pais">
+            <option value="Mexico">México</option><!--En este caso el value sirve para mandar los datos a un archivo que yo quiera-->
+            <option value="españa">España</option>
+            <option value="argentina">Argentina</option>
+        </select>
+        <br>
+        <input type="radio" name="genero" value="hombre" id="hombre1">Hombre
+        <input type="radio" name="genero" value="Mujer" id="mujer1">Mujer
+        <br>
+        <input type="radio" name="genero" value="hombre" id="hombre2"><label for="hombre2">Hombre</label>
+        <input type="radio" name="genero" value="Mujer" id="mujer2"><label for="mujer2">Mujer</label>
+        <br>
+        <input type="checkbox" name="terminos" id="terminos"><label for="terminos">Terminos y Condiciones</label>
+        <br>
+        <input type="submit" value="Enviar">
+        
+   </form>
+</body>
+</html>

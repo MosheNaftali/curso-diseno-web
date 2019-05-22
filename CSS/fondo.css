@@ -1,0 +1,25 @@
+/*background-repeat: controlamos cuantas veces queremos que se repita la imagen si es de un tamaño chico
+    no-repeat;: No repetir imagen, osea solo aparezca una vez.
+    repeat-x;:Repetir en el eje x.
+    repeat-y;:Repetir en el eje y.
+*/
+body {
+	background:#637DDA;
+	background:url('img/fondo.jpg');
+	background-repeat:no-repeat;
+	background-size:50%;
+	background-attachment: scroll;
+	background-position: 50px 200px;
+
+
+/*	background:url('img/bg.jpg') no-repeat fixed 50px 200px;
+	background-size: 500px;*/
+}
+
+/*.fondo {
+	background:url('img/bg.jpg') #000;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width:600px;
+	height:600px;
+}*/

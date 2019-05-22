@@ -1,0 +1,42 @@
+/*
+*: Selector universal
+h1, p, section, etc: Selectores de etiqueta
+div article p: Selector descendente
+.class:Selector de clase
+#id: Selector de id(No utilizar en CSS; ya que se utiliza para JS)
+font-size: Tamaño de fuente
+*/
+/* {
+    color: red;
+}*/
+
+h1, h2, h3, h4, h5, h6{
+    color:blue;
+}
+h2{
+    color:red;
+}
+p{
+ color:brown   
+}
+div p{
+    font-size: 20px;
+    color:black;
+}
+div article p{
+    font-size: 15px;
+    color:chartreuse;
+}
+p a{
+  color: red;  
+}
+.grande{
+    font-size: 28px;
+}
+#rojo{
+    color: red;
+}
+.grande_rojo{
+    font-size: 30px;
+    color: black;
+}

@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+a{
+    /*display: inline-block;*/
+    /*visibility: hidden;*/
+    background: #246eb9;
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+}
+/*display[inline | block | none | inline-block | flex]*/
+/*
+	table| inline-table | table-row-group | table-header-group | table-footer-group |
+	table-row | table-column-group | table-column | table-cell | table-caption
+*/
+.caja{
+    color:#000;
+    background: #4fb560;
+    margin: 20px 0;
+    width: 200px;
+    height:200px;
+    overflow: hidden;/*Esta funcion nos puede servir por si en el caso que el texto se desborde, no se vea.
+    hidden: ocultar texto que no se encuentra dentro del cuadro
+    auto: crea un scroll por si no cabe el texto*/
+}
+.contenedor{
+    width: 600px;
+    background: #ccc;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.izquierda{float: left;}
+.derecha{float: right;}
+.contenedor2 .caja{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.azul{
+    background: #009ddc;
+    z-index: 2;
+}
+.gris{
+    background: #32021f;
+    left: 50px;
+    bottom: 100px;
+    z-index: 1;
+}
+/*z-index: determinamos cual es el valor mas importante y lo pasa adelante, entre mas grande el numero, mas importante*/

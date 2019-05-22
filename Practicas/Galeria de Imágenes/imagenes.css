@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000500;
+}
+.galeria{
+    width: 100%;
+}
+.galeria img{
+    vertical-align: top; /*Eliminamos el espacio que genera entre imágenes*/
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
+    opacity: 0.5;
+    border: 1px solid #484848;
+}
+.galeria img:hover{/*hover: Al pasar el mouse*/
+    border=1px solid #fff;
+    opacity: 1;
+}

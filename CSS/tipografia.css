@@ -1,0 +1,31 @@
+/*
+Siempre que las fuentes lleven espacio, deben de haber comillas
+Si yo solo tengo instalada esa fuente, los demas no lo van a poder ver
+font-weight: Ancho de la fuente
+text-align: Alineacion de texto
+text-transform: Transformar texto
+    uppercase;: Pasar todo a mayusculas
+    lowercase: pasar todo a minusculas
+    capitaliza: Primer letra de cada palabra en mayuscula
+letter-spacing; Espacio entre letras
+line-height: Espacio entre renglon
+*/
+body{
+    font-family: "Google Sans",sans-serif, Hervetica;
+}
+h1{
+    font-family: "Times New Roman", Arial;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    color: #4281ed;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+p{
+    text-align:justify; 
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    line-height: 30px;
+}

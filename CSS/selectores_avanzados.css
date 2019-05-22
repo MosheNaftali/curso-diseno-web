@@ -1,0 +1,17 @@
+div > p{/*Al poner el > estamos diciendo que este directamente la p luego de div, porque si lo dejamos así va a poner todos los p que esten dentro del div sin importar si es article, header, etc.*/
+    font-size: 20px;
+}
+input[type]{
+    
+}
+input[type="text"]{
+    
+}
+body{
+    color:blue;
+    font-size:20px;
+}
+article{
+    font-size:16px;
+    color:black;
+}

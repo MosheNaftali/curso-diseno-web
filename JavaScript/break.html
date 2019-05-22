@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Break y Continue</title>
+</head>
+<body>
+    <script>
+        var amigos = ['Alejandro', 'Cesar', 'Manuel', 'Luis'];
+        
+        for(amigo in amigos){
+            if(amigos[amigo] == 'Alejandro'){
+                continue; //Se salta a la siguiente iteración
+            }
+            document.write(amigos[amigo] + '<br>');
+//            if(amigos[amigo] == 'Cesar'){
+//                break; //corta la ejecución del ciclo
+//            }
+        }
+        
+//        console.log('Fin del ciclo');
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Siempre poner los pixeles de anchura que tenga la pantalla en la cual edito
+Para las columnas, recomendable 1000 pixeles
+Header - encabezado
+main - contenido
+footer - pie de página
+Recomendable altura de fondo 600
+alt y me pongo entre las dos imagenes me hace las mismas medidas del de abajo
+shift y tecla derecha o izquierda, mover elemento 10 px
+ctrl+j-duplicar

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Métodos y Propiedades para Arreglod</title>
+</head>
+<body>
+    <script>
+        var amigos = ['Carlos', 'Alejandro', 'Cesar', 'Moshe'];
+        // ----- Metodo Length
+		// document.write(amigos.length);
+
+// ----- Metodo Join
+		// var cadenaTexto = amigos.join(' ** ');
+		// document.write(cadenaTexto);
+
+// ----- Metodo Pop y Push
+        // pop: Borrar último dato del arreglo
+        // push: ingresar dato en la última posición del arreglo
+		// amigos.pop();
+		// amigos.push('Felipe');
+		// console.log(amigos);
+
+// ----- Metodo shift y unshift
+        // shift: Borrar primer dato del arreglo
+        // unshift: ingresar dato en la primera posición del arreglo
+		// amigos.shift();
+		// amigos.unshift('Oscar');
+		// console.log(amigos);		
+
+// ----- Metodo concat
+		// var amigos2 = ['Felipe', 'Oscar'];
+
+		// var todosMisAmigos = amigos.concat(amigos2);
+		// console.log(todosMisAmigos);
+
+// ----- Metodo Sort y Reverse
+        // sort: ordenar de forma alfabética de a-z
+        // reverse: ordenar de forma alfabética de z-a
+// Nota: sort no funciona para ordenar numeros, solo cadenas de texto.
+        amigos.sort();
+        console.log(amigos);
+        
+        
+    </script>
+</body>
+</html>
